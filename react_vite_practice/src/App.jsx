@@ -1,10 +1,10 @@
 import Chai from "./chai"
 function App() {
-
+  let username = 'akshat'
   return (
     <>
     <Chai/>
-    <h1>chai aur reatc</h1>
+    <h1>chai aur reatc {username}</h1>
     </>
   )
 }
