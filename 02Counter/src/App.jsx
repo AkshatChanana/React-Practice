@@ -7,9 +7,7 @@ function App() {
   let [counter , setCounter] = useState(15)
   //let counter = 15
   let addValue = (col)=>{
-      setCounter(counter + 1)
-      setCounter(counter + 1)
-      setCounter(counter + 1)
+      setCounter(prev => prev + 1)
       
     console.log(counter)
   }
